@@ -1,6 +1,6 @@
 /**
  * CS 105 Theory and Practice I
- * CRN: [CHANGE THIS TO YOUR INFORMATION]
+ * CRN: 38066
  * Assignment: Employee
  * 
  * Statement of code ownership: I hereby state that I have written all of this
