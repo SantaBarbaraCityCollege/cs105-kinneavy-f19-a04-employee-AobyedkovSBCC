@@ -24,7 +24,6 @@ public class Employee {
     double currentSalary;
     
     public Employee(String employeeName, double currentSalary) {
-        // TODO: Initialize instance variables from constructor (ctor) parameters
         this.employeeName = employeeName;
         this.currentSalary = currentSalary;
     }
@@ -33,12 +32,10 @@ public class Employee {
     // any documentation unless you are creating a library to be used by other
     // people.
     public String getName() {
-        // TODO: Return the name of the employee;
         return employeeName;
     }
 
     public double getSalary() {
-        // TODO: Return the current salary of the employee
         return currentSalary;
     }
 
@@ -47,7 +44,6 @@ public class Employee {
      * 
      */
     public void raiseSalary(double byPercent) {
-        // TODO: Calculate the new salary by increasing it by the percent passed in as a method argument
         this.currentSalary = (((byPercent / 100) * currentSalary) + currentSalary);
     }
 }
