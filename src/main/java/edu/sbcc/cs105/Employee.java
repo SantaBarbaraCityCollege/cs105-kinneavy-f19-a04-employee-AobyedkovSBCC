@@ -16,13 +16,13 @@ package edu.sbcc.cs105;
  */
 public class Employee {
 
+    String employeeName;
+    double currentSalary;
+    
     /**
      * Constructor that creates a new Employee with an initial name and salary.
      * 
      */
-    String employeeName;
-    double currentSalary;
-    
     public Employee(String employeeName, double currentSalary) {
         this.employeeName = employeeName;
         this.currentSalary = currentSalary;
